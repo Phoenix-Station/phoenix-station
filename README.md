@@ -9,7 +9,7 @@
 [![Client](https://img.shields.io/badge/Client-Download-blue)](https://spacestation14.io/about/nightlies/)
 [![GitHub](https://img.shields.io/github/stars/ss14Starlight/space-station-14?style=social)]([https://github.com/ss14Starlight/space-station-14])
 
-# STARLIGHT
+# Phoenix Station
 <sub>Space-Station 14</sub>
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/ss14Starlight/space-station-14)
@@ -18,9 +18,11 @@
 
 </div>
 
-STARLIGHT is an open source project aimed at creating unique mechanics and a pleasant game atmosphere in the game Space Station 14,
+Phoenix Station is an open source project aimed at creating unique mechanics and a pleasant game atmosphere in the game Space Station 14,
 
 a game about survival on a space station where there are constant confrontations between the crew and antagonists created to prevent the crew from achieving their goals.
+
+We are a [Starlight](https://github.com/ss14Starlight/space-station-14) fork that focuses primarily on creating a calmer, roleplay oriented experience that helps newer players and veterans alike enjoy the game. Explicitly, we target creating an environment where newer players can grow accustomed to the game, both in its features and mechanics, and in the roleplay itself.
 
 ## Space-Station 14 Documentation/Wiki
 
