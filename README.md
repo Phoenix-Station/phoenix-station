@@ -24,6 +24,8 @@ a game about survival on a space station where there are constant confrontations
 
 We are a [Starlight](https://github.com/ss14Starlight/space-station-14) fork that focuses primarily on creating a calmer, roleplay oriented experience that helps newer players and veterans alike enjoy the game. Explicitly, we target creating an environment where newer players can grow accustomed to the game, both in its features and mechanics, and in the roleplay itself.
 
+Phoenix Station, as a project, was brought about in response to a niche felt lost by a different fork. Phoenix Station is not meant to replace other servers wholesale. Particularly, the hope is this project co-exists with other servers, especially those that we've taken direct inspiration from.
+
 ## Space-Station 14 Documentation/Wiki
 
 Space-Station 14 has [docs site](https://docs.spacestation14.io/) documentation on SS14s content, engine, game design and more. We also have lots of resources for new contributors to the project.
