@@ -17,10 +17,12 @@
     - !type:RoleTimeRequirement
       role: JobJanitor
       time: 3h
-    - !type:TraitsRequirement # Starlight
-      traits:
-        - Iterator
-      inverted: true
+    # Phoenix start - Job whitelist changes
+    #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #inverted: true
+    # Phoenix end - Job whitelist changes
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
