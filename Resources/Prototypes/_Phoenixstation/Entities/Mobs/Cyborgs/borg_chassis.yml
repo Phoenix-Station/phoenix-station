@@ -25,6 +25,7 @@
           - BorgModuleGeneric
           - BorgModuleSyndicate
           - BorgModuleSyndicateAssault
+          - BorgModuleCentcomm
       hasMindState: borg_e
       noMindState: borg
     - type: InteractionPopup
@@ -74,3 +75,12 @@
     - type: Repairable
       AllowSelfRepair: true
       SelfRepairPenalty: 1
+    - type: ContainerFill
+      containers:
+        borg_brain:
+          - PositronicBrain
+        borg_module:
+          - BorgModuleAdvancedTool
+          - BorgModuleOperative
+          - BorgModuleAdmemeModifiedL6Module
+          - BorgModuleDoubleEsword
