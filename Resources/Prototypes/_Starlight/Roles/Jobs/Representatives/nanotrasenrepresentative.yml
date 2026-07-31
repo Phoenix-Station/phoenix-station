@@ -16,7 +16,6 @@
       #    - Muted
       #  inverted: true
     # Phoenix end - Job whitelist changes
-      inverted: true
   startingGear: NanoTrasenRepresentativeGear
   icon: JobIconNanoTrasenRepresentative
   rules: job-rules-corporate-aligned

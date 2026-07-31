@@ -6,11 +6,13 @@
   requirements:
     - !type:RolesRequirement
       proto: StaffAndMentorOnlyRolesReq
-    - !type:TraitsRequirement
-      traits:
-        - Iterator
-        - Muted
-      inverted: true
+    # Phoenix start - Job whitelist changes
+    #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #  - Muted
+      #inverted: true
+     # Phoenix end - Job whitelist changes
   startingGear: NanotrasenCareerTrainerGear
   icon: JobIconNanotrasenCareerTrainer
   rules: job-rules-corporate-aligned
