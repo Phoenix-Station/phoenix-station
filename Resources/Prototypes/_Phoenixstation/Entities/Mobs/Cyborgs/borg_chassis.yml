@@ -73,8 +73,8 @@
     - type: ShowMindShieldIcons
     - type: ShowHealthBars
     - type: Repairable
-      AllowSelfRepair: true
-      SelfRepairPenalty: 1
+      allowSelfRepair: true
+      selfRepairPenalty: 1
     - type: ContainerFill
       containers:
         borg_brain:
@@ -90,3 +90,8 @@
     - type: SiliconLawProvider
       laws: CCObeyinglawset
       subverted: false
+    - type: PointLight
+      color: "#0ADB0A"
+      radius: 8
+      softness: 1
+      falloff: 6.8
