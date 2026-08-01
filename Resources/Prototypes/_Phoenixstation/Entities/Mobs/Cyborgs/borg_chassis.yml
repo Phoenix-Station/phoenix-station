@@ -84,3 +84,9 @@
           - BorgModuleOperative
           - BorgModuleAdmemeModifiedL6Module
           - BorgModuleDoubleEsword
+    - type: AccessReader
+      access:
+        - - CentralCommand
+    - type: SiliconLawProvider
+      laws: CCObeyinglawset
+      subverted: false
