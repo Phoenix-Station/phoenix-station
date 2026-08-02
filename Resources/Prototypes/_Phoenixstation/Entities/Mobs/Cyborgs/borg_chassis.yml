@@ -95,3 +95,29 @@
       radius: 8
       softness: 1
       falloff: 6.8
+    - type: Loadout
+      prototypes: [CCOborggear]
+
+# The outfit for the borg, feel free to move it to another file incase if you want to add more to here. -Pcer
+
+- type: startingGear
+  id: CCOborggear
+  equipment:
+    back: ClothingBackpackSatchelHolding
+    id: CentcomPDA
+  storage:
+    back:
+      - BoxHandcuff
+      - BoxHandcuff
+      - ToolDebug
+      - WelderExperimental
+      - Multitool
+      - DoubleStunbaton
+      - MedkitCombatFilled
+      - MedkitCombatFilled
+      - Hypospray
+      - ChemistryBottleOmnizine
+      - ChemistryBottleOmnizine
+      - PowerCellAntiqueProto
+      - PenCentcom
+      - BoxFolderCentComClipboardThreePapers
