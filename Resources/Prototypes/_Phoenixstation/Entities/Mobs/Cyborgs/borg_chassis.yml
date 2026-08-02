@@ -97,6 +97,7 @@
       falloff: 6.8
     - type: Loadout
       prototypes: [CCOborggear]
+    - type: EmpImmune
 
 # The outfit for the borg, feel free to move it to another file incase if you want to add more to here. -Pcer
 
@@ -105,6 +106,7 @@
   equipment:
     back: ClothingBackpackSatchelHolding
     id: CentcomPDA
+    ears: ClothingHeadsetCentCom
   storage:
     back:
       - BoxHandcuff
