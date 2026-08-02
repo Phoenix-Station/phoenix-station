@@ -6,7 +6,7 @@
   requirements:
   - !type:RolesRequirement
     proto: StaffAndMentorOnlyRolesReq
-  setPreference: false
+  setPreference: true
   startingGear: CentcommGear
   icon: "JobIconCentralCommandOfficial" #Starlight
   supervisors: job-supervisors-hos
