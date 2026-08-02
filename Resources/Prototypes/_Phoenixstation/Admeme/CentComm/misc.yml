@@ -1,0 +1,26 @@
+- type: entity
+  id: Centcommteleportdoohickey
+  name: teleport doohickey
+  description: A bluespace doohickey that lets you teleport anywhere* on the station, no you cannot take your favourite Avali to CC with this.
+  suffix: ADMEME, CENTCOMM
+  parent: [ BaseItem, BaseCentcommContraband ]
+  components:
+    - type: UserInterface
+      interfaces:
+        enum.TeleportLocationUiKey.Key:
+          type: TeleportLocationsBoundUserInterface
+    - type: ActivatableUI
+      key: enum.TeleportLocationUiKey.Key
+    - type: Sprite
+      sprite: /Textures/Objects/Devices/hand_teleporter.rsi
+      layers:
+        - state: icon
+          color: green
+    - type: TeleportLocations
+      name: teleportation-scroll-window-title
+      closeAfterTeleport: true
+    - type: UseDelay
+      delay: 1
+      delays:
+        TeleportDelay: !type:UseDelayInfo
+          length: 60

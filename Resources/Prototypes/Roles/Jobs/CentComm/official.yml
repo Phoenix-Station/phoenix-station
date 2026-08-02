@@ -33,7 +33,11 @@
     belt: WeaponPistolN1984
     pocket1: BoxFolderCentComClipboardThreePapers
     pocket2: PenCentcom
-
+    # Phoenix start - make CC roundstart
+    back: ClothingBackpackSatchelLeather
+  inhand:
+    - Centcommteleportdoohickey # Phoenix - For them to get to CC.
+  # Phoenix end - make CC roundstart
 
 - type: chameleonOutfit
   id: CentralCommandOfficialOutfit
