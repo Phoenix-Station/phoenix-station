@@ -7,8 +7,10 @@
       sprite: Mobs/Demons/abomination.rsi
       state: abomination
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: SpaceDragonStaffTheme
@@ -20,8 +22,10 @@
       sprite: Mobs/Aliens/Carps/dragon.rsi
       state: alive
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: BuffRatKingTheme
@@ -33,8 +37,10 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-buff-rat-king
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: FoxTheme
@@ -46,8 +52,10 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-fox
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: LizardPlushie
@@ -59,8 +67,10 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-lizard-plushie
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: MothroachTheme
@@ -72,8 +82,10 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-mothroach
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: ScurretTheme
@@ -85,8 +97,10 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-scurret
     color: "#ffffff"
-    # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: WispTheme
@@ -98,8 +112,10 @@
       sprite: _Starlight/CosmicCult/Mobs/wisp.rsi
       state: wisp
       shader: unshadedq
-      # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: CustodianTheme
@@ -110,5 +126,7 @@
     sprite:
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-custodian
-      # Phoenix - Removed requriements.
-  category: Public # Phoenix - Egalitarianize ghosties
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: StaffRolesReq
+  category: Staff
