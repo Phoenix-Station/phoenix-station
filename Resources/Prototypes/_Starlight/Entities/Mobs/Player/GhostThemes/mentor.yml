@@ -7,10 +7,8 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-narsie
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: MentorRolesReq
-  category: Mentor
+    # Phoenix - Removed requriements.
+  category: Public # Phoenix - Egalitarianize ghosties
 
 - type: ghostTheme
   id: Daemon
@@ -21,7 +19,5 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-daemon
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: MentorRolesReq
-  category: Mentor
+    # Phoenix - Removed requriements.
+  category: Public # Phoenix - Egalitarianize ghosties
