@@ -11,7 +11,8 @@ All standard crew requires permits to carry contraband, minor is permissible dep
 
 
 # Department specific:
-    - [textlink="NT Personnel SOP" link="SOPPSDepCommand"]
     - [textlink="Command SOP" link="SOPPSDepCommand"]
+    - [textlink="NT Personnel SOP" link="SOPPSDepNTPersonnel"]
     - [textlink="Security SOP" link="SOPPSDepSecurity"]
+    - [textlink="Cargo SOP" link="SOPPSDepCargo"]
 </Document>

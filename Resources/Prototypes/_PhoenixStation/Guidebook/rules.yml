@@ -62,70 +62,70 @@
   name: guide-entry-ps-core-0
   ruleEntry: true
   priority: 1
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC0Admins.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC0Admins.xml"
 
 - type: guideEntry
   id: RulePSC1
   name: guide-entry-ps-core-1
   ruleEntry: true
   priority: 2
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC1Negativity.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC1Negativity.xml"
 
 - type: guideEntry
   id: RulePSC2
   name: guide-entry-ps-core-2
   ruleEntry: true
   priority: 3
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC2Bigotry.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC2Bigotry.xml"
 
 - type: guideEntry
   id: RulePSC3
   name: guide-entry-ps-core-3
   ruleEntry: true
   priority: 4
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC3NoERP.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC3NoERP.xml"
 
 - type: guideEntry
   id: RulePSC4
   name: guide-entry-ps-core-4
   ruleEntry: true
   priority: 5
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC4Age.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC4Age.xml"
 
 - type: guideEntry
   id: RulePSC5
   name: guide-entry-ps-core-5
   ruleEntry: true
   priority: 6
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC5BanEvasion.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC5BanEvasion.xml"
 
 - type: guideEntry
   id: RulePSC6
   name: guide-entry-ps-core-6
   ruleEntry: true
   priority: 7
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC6Cheats.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC6Cheats.xml"
 
 - type: guideEntry
   id: RulePSC7
   name: guide-entry-ps-core-7
   ruleEntry: true
   priority: 8
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC7AHelp.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC7AHelp.xml"
 
 - type: guideEntry
   id: RulePSC8
   name: guide-entry-ps-core-8
   ruleEntry: true
   priority: 9
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC8English.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC8English.xml"
 
 - type: guideEntry
   id: RulePSC9
   name: guide-entry-ps-core-9
   ruleEntry: true
   priority: 10
-  text: "/ServerInfo/_Starlight/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC9EORG.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC9EORG.xml"
 
 # Roleplay Rules
 
