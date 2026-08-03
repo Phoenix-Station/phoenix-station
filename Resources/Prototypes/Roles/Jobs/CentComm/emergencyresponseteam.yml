@@ -4,28 +4,25 @@
   name: job-name-ertleader
   description: job-description-ertleader
   playTimeTracker: JobERTLeader
-  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
   # Starlight start
-  #requirements:
-  #- !type:OverallPlaytimeRequirement
-  #  time: 96h # Realistically, if you have the CC time, you'll have met this anyways... But, in case that CC time is removed later.
-  #- !type:DepartmentTimeRequirement
-  #  department: CentralCommand
-  #  time: 10h
-  #- !type:DepartmentTimeRequirement
-  #  department: Command
-  #  time: 20h
-  #- !type:RoleTimeRequirement
-  #  role: JobSecurityOfficer
-  #  time: 15h # If theyre not an admin, they NEED to be good in combat. You're the last hope, after all.
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 96h # Realistically, if you have the CC time, you'll have met this anyways... But, in case that CC time is removed later.
+  - !type:DepartmentTimeRequirement
+    department: CentralCommand
+    time: 10h
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 20h
+  - !type:RoleTimeRequirement
+    role: JobSecurityOfficer
+    time: 15h # If theyre not an admin, they NEED to be good in combat. You're the last hope, after all.
   # Starlight end
-  # Pheonix end - Job whitelist changes
   setPreference: false
   startingGear: ERTLeaderGearEVA
   icon: "JobIconERTLeader"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess
@@ -118,20 +115,17 @@
   name: job-name-ertchaplain
   description: job-description-ertchaplain
   playTimeTracker: JobERTChaplain
-  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
-  #requirements:
-  #- !type:OverallPlaytimeRequirement
-  #  time: 48h # While you technically are a last resort against the "paranormal", there's no threats that actually warrant you having more time than this unless Cluwne Beasts get properly implemented.
-  #- !type:RoleTimeRequirement
-  #  role: JobChaplain
-  #  time: 5h
-  # Pheonix end - Job whitelist changes
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 48h # While you technically are a last resort against the "paranormal", there's no threats that actually warrant you having more time than this unless Cluwne Beasts get properly implemented.
+  - !type:RoleTimeRequirement
+    role: JobChaplain
+    time: 5h
   setPreference: false
   startingGear: ERTChaplainGear
   icon: "JobIconERTChaplain"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess
@@ -203,20 +197,17 @@
   name: job-name-ertengineer
   description: job-description-ertengineer
   playTimeTracker: JobERTEngineer
-  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
-  #requirements:
-  #- !type:OverallPlaytimeRequirement
-  #  time: 72h # Starlight. You should know the game's controls if you're going to be building stuff.
-  #- !type:RoleTimeRequirement
-  #  role: JobStationEngineer
-  #  time: 15h # Starlight. You should know how to construct things with and without the RCD.
-  # Pheonix end - Job whitelist changes
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 72h # Starlight. You should know the game's controls if you're going to be building stuff.
+  - !type:RoleTimeRequirement
+    role: JobStationEngineer
+    time: 15h # Starlight. You should know how to construct things with and without the RCD.
   setPreference: false
   startingGear: ERTEngineerGearEVA
   icon: "JobIconERTEngineer"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess
@@ -302,20 +293,17 @@
   name: job-name-ertsecurity
   description: job-description-ertsecurity
   playTimeTracker: JobERTSecurity
-  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
-  #requirements:
-  #- !type:OverallPlaytimeRequirement
-  #  time: 72h #Starlight
-  #- !type:RoleTimeRequirement
-  #  role: JobSecurityOfficer
-  #  time: 15h # Starlight, your whole job here is fighting and following orders.
-  # Pheonix end - Job whitelist changes
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 72h #Starlight
+  - !type:RoleTimeRequirement
+    role: JobSecurityOfficer
+    time: 15h # Starlight, your whole job here is fighting and following orders.
   setPreference: false
   startingGear: ERTEngineerGearEVA
   icon: "JobIconERTSecurity"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess
@@ -478,26 +466,23 @@
   name: job-name-ertmedic
   description: job-description-ertmedic
   playTimeTracker: JobERTMedical
-  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
   #requirements:
-  #- !type:OverallPlaytimeRequirement
-  #  time: 72h # Starlight
-  #- !type:RoleTimeRequirement
-  #  role: JobMedicalDoctor
-  #  time: 10h # Starlight
-  #- !type:RoleTimeRequirement
-  #  role: JobChemist
-  #  time: 10h #Starlight start
-  #- !type:RoleTimeRequirement
-  #  role: JobSecurityOfficer
-  #  time: 5h #Starlight, youre a medic but you WILL be fighting at some point, Starlight end
-  # Pheonix end - Job whitelist changes
+  - !type:OverallPlaytimeRequirement
+    time: 72h # Starlight
+  - !type:RoleTimeRequirement
+    role: JobMedicalDoctor
+    time: 10h # Starlight
+  - !type:RoleTimeRequirement
+    role: JobChemist
+    time: 10h #Starlight start
+  - !type:RoleTimeRequirement
+    role: JobSecurityOfficer
+    time: 5h #Starlight, youre a medic but you WILL be fighting at some point, Starlight end
   setPreference: false
   startingGear: ERTMedicalGearEVA
   icon: "JobIconERTMedical" #Starlight
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess
@@ -591,20 +576,17 @@
   name: job-name-ertjanitor
   description: job-description-ertjanitor
   playTimeTracker: JobERTJanitor
-  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
-  #requirements:
-  #- !type:OverallPlaytimeRequirement
-  #  time: 48h # Starlight
-  #- !type:RoleTimeRequirement
-  #  role: JobJanitor
-  #  time: 5h
-  # Pheonix end - Job whitelist changes
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 48h # Starlight
+  - !type:RoleTimeRequirement
+    role: JobJanitor
+    time: 5h
   setPreference: false
   startingGear: ERTJanitorGearEVA
   icon: "JobIconERTJanitor"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess
