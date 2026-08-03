@@ -466,7 +466,7 @@
   name: job-name-ertmedic
   description: job-description-ertmedic
   playTimeTracker: JobERTMedical
-  #requirements:
+  requirements:
   - !type:OverallPlaytimeRequirement
     time: 72h # Starlight
   - !type:RoleTimeRequirement
