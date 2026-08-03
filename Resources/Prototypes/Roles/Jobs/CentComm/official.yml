@@ -3,14 +3,17 @@
   name: job-name-centcommoff
   description: job-description-centcommoff
   playTimeTracker: JobCentralCommandOfficial
-  requirements:
-  - !type:RolesRequirement
-    proto: StaffAndMentorOnlyRolesReq
+  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
+  #requirements:
+  #- !type:RolesRequirement
+  #  proto: StaffAndMentorOnlyRolesReq
+  # Pheonix end - Job whitelist changes
   setPreference: false
   startingGear: CentcommGear
   icon: "JobIconCentralCommandOfficial" #Starlight
   supervisors: job-supervisors-hos
   canBeAntag: false
+  whitelisted: true # Phoenix - Job whitelist changes
   accessGroups:
   - AllAccess
   access:

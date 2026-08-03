@@ -16,11 +16,13 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 25h # Starlight
-    - !type:TraitsRequirement # Starlight
-      traits:
-        - Iterator
-        - Muted
-      inverted: true
+    # Phoenix start - Job whitelist changes
+    #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #  - Muted
+      #inverted: true
+    # Phoenix end - Job whitelist changes
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

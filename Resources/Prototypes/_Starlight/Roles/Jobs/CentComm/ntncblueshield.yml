@@ -3,18 +3,21 @@
   name: job-name-ntncblueshield
   description: job-description-ntncblueshield
   playTimeTracker: JobConsortiumBlueShield
-  requirements:
-  - !type:OverallPlaytimeRequirement
-    time: 72000 # 20h
-  - !type:RoleTimeRequirement
-    role: JobSecurityOfficer
-    time: 18000 # 5h
+  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
+  #requirements:
+  #- !type:OverallPlaytimeRequirement
+  #  time: 72000 # 20h
+  #- !type:RoleTimeRequirement
+  #  role: JobSecurityOfficer
+  #  time: 18000 # 5h
+  # Pheonix end - Job whitelist changes
   setPreference: false
   startingGear: NTNCHardsuitGear
   icon: JobIconNTNCBlueShield
   rules: job-rules-corporate-aligned
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true
   accessGroups:
   - AllAccess
