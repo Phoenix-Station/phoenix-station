@@ -3,9 +3,9 @@
   name: job-name-centcommoff
   description: job-description-centcommoff
   playTimeTracker: JobCentralCommandOfficial
-  requirements:
-  - !type:RolesRequirement
-    proto: StaffAndMentorOnlyRolesReq
+  #requirements:
+  #- !type:RolesRequirement
+  #  proto: StaffAndMentorOnlyRolesReq
   setPreference: true
   startingGear: CentcommGear
   icon: "JobIconCentralCommandOfficial" #Starlight
@@ -36,7 +36,7 @@
     # Phoenix start - make CC roundstart
     back: ClothingBackpackSatchelLeather
   inhand:
-    - Centcommteleportdoohickey # Phoenix - For them to get to CC.
+    - Centcommteleportdoohickey # Phoenix - For them to get to CC if they latejoin.
   # Phoenix end - make CC roundstart
 
 - type: chameleonOutfit
