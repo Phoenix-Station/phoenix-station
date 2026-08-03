@@ -39,7 +39,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: StaffRolesReq
   category: Staff
 
 - type: ghostTheme
@@ -54,7 +54,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: StaffRolesReq
   category: Staff
 
 - type: ghostTheme
@@ -69,7 +69,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: StaffRolesReq
   category: Staff
 
 - type: ghostTheme
@@ -84,7 +84,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: StaffRolesReq
   category: Staff
 
 - type: ghostTheme
@@ -99,7 +99,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: StaffRolesReq
   category: Staff
 
 - type: ghostTheme
@@ -111,10 +111,10 @@
     sprite:
       sprite: _Starlight/CosmicCult/Mobs/wisp.rsi
       state: wisp
-      shader: unshaded
+      shader: unshadedq
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: SeniorDeveloperReq
+    requirement: StaffRolesReq
   category: Staff
 
 - type: ghostTheme
@@ -128,5 +128,5 @@
       state: ghost-custodian
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: DeveloperReq
+    requirement: StaffRolesReq
   category: Staff

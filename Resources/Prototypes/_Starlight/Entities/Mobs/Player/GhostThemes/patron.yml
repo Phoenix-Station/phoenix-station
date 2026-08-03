@@ -7,6 +7,9 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/angel.rsi
       state: angel
     color: "#ffffff"
+  requirements:
+  - !type:DiscordRolesRequirement
+    requirement: PatronReq
   trail:
     color: "#FFFFFF"
     maxPoints: 40
@@ -15,9 +18,6 @@
     decayDelay: 2.6
     decayInterval: 0.15
     shader: HolyStarsTrail
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
   category: Patron
 
 - type: ghostTheme
@@ -108,5 +108,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: WizdenPatronReq
+    requirement: PatronReq
   category: Patron
