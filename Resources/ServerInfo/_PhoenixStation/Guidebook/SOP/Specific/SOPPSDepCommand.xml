@@ -2,10 +2,10 @@
 ## Command Standard Operating Procedure
 
 # Part one: Succession, and acting.
-    Succession dictates who is granted the title of Acting Captain in an emergency, or otherwise simply lacking one.
-    Succession is as follows: Captain > Head of Personnel > Head of Security > Chief Engineer > Chief Medical Officer
-If there are no heads available (or alive) to take the role, the highest level of available Security should take it [textlink="(having the same succession as HoS, as outlined in Sec SoP) "link="SOPPSDepSecurity"]
-If there is no security (assigned and alive), NT Personnel roles may take the title. This should be considered in an extreme emergency, as the station generally should govern itself.
+    Succession dictates who is granted the title of Acting Captain in an emergency, or otherwise simply lacking one. If a Command member is missing, dead, or declines acting, it goes to the next in line. If no one willingly steps up and there is an active emergency requiring acting, it must be voted on who must take the role out of all living and available members of Command. If any former command is in an NT-Design Cyborg chassis, they may vote but cannot be acting.
+    Succession is as follows: Captain \> Head of Personnel \> Head of Security \> Chief Engineer \> Chief Medical Officer \> Research Director \> Quartermaster [textlink="(or Salvage)" link="SOPPSDepCargo"] \> NT Personnel [textlink="(see NTP SOP)" link="SOPPSDepNTP"]
+If there are no heads available (or alive) to take the role, the highest level of available Security should take it [textlink="(having the same succession as HoS, as outlined in Sec SoP)" link="SOPPSDepSecurity"]
+If there is no security (assigned and alive), and there are no members of Salvage, NT Personnel roles may take the title. This should be considered in an extreme emergency, as the station generally should govern itself.
 
 # Part two: Command armaments
 
