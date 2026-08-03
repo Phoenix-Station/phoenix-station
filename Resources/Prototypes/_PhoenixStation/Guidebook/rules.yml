@@ -1,0 +1,224 @@
+- type: guideEntry
+  id: PhoenixRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/Rules.xml"
+  priority: 0
+  children:
+    - PhoenixCoreRules
+    - PhoenixRPRules
+    - PhoenixSpecificRules
+
+- type: guideEntry
+  id: PhoenixCoreRules
+  name: guide-entry-ps-core
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/CoreRules.xml"
+  priority: 1
+  children:
+    - RulePSC0
+    - RulePSC1
+    - RulePSC2
+    - RulePSC3
+    - RulePSC4
+    - RulePSC5
+    - RulePSC6
+    - RulePSC7
+    - RulePSC8
+    - RulePSC9
+
+- type: guideEntry
+  id: PhoenixRPRules
+  name: guide-entry-ps-rp
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RoleplayRules.xml"
+  priority: 2
+  children:
+    - RulePSR1
+    - RulePSR2
+    - RulePSR3
+    - RulePSR4
+    - RulePSR5
+    - RulePSR6
+    - RulePSR7
+    - RulePSR8
+
+- type: guideEntry
+  id: PhoenixSpecificRules
+  name: guide-entry-ps-specific
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/SpecificRules/SpecificRules.xml"
+  priority: 3
+  children:
+    - RulePSS1
+    - RulePSS2
+    - RulePSS3
+    - RulePSS4
+    - RulePSS5
+
+# Core rules
+- type: guideEntry
+  id: RulePSC0
+  name: guide-entry-ps-core-0
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC0Admins.xml"
+
+- type: guideEntry
+  id: RulePSC1
+  name: guide-entry-ps-core-1
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC1Negativity.xml"
+
+- type: guideEntry
+  id: RulePSC2
+  name: guide-entry-ps-core-2
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC2Bigotry.xml"
+
+- type: guideEntry
+  id: RulePSC3
+  name: guide-entry-ps-core-3
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC3NoERP.xml"
+
+- type: guideEntry
+  id: RulePSC4
+  name: guide-entry-ps-core-4
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC4Age.xml"
+
+- type: guideEntry
+  id: RulePSC5
+  name: guide-entry-ps-core-5
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC5BanEvasion.xml"
+
+- type: guideEntry
+  id: RulePSC6
+  name: guide-entry-ps-core-6
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC6Cheats.xml"
+
+- type: guideEntry
+  id: RulePSC7
+  name: guide-entry-ps-core-7
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC7AHelp.xml"
+
+- type: guideEntry
+  id: RulePSC8
+  name: guide-entry-ps-core-8
+  ruleEntry: true
+  priority: 9
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC8English.xml"
+
+- type: guideEntry
+  id: RulePSC9
+  name: guide-entry-ps-core-9
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/CoreRules/RulePSC9EORG.xml"
+
+# Roleplay Rules
+
+- type: guideEntry
+  id: RulePSR1
+  name: guide-entry-ps-rp-1
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR1SelfAntag.xml"
+
+- type: guideEntry
+  id: RulePSR2
+  name: guide-entry-ps-rp-2
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR2Escalation.xml"
+
+- type: guideEntry
+  id: RulePSR3
+  name: guide-entry-ps-rp-3
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR3Players.xml"
+
+- type: guideEntry
+  id: RulePSR4
+  name: guide-entry-ps-rp-4
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR4Roleplay.xml"
+
+- type: guideEntry
+  id: RulePSR5
+  name: guide-entry-ps-rp-5
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR5Metacom.xml"
+
+- type: guideEntry
+  id: RulePSR6
+  name: guide-entry-ps-rp-6
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR6Metagaming.xml"
+
+- type: guideEntry
+  id: RulePSR7
+  name: guide-entry-ps-rp-7
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR7Metagrudge.xml"
+
+- type: guideEntry
+  id: RulePSR8
+  name: guide-entry-ps-rp-8
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/RoleplayRules/RulePSR8RoleAbandon.xml"
+
+# Specific Rules
+
+- type: guideEntry
+  id: RulePSS1
+  name: guide-entry-ps-s-1
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/SpecificRules/RulePSS1Silicons.xml"
+
+- type: guideEntry
+  id: RulePSS2
+  name: guide-entry-ps-s-2
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/SpecificRules/RulePSS2Familiars.xml"
+
+- type: guideEntry
+  id: RulePSS3
+  name: guide-entry-ps-s-3
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/SpecificRules/RulePSS3SecCommand.xml"
+
+- type: guideEntry
+  id: RulePSS4
+  name: guide-entry-ps-s-4
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/SpecificRules/RulePSS4Antags.xml"
+
+- type: guideEntry
+  id: RulePSS5
+  name: guide-entry-ps-s-5
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/RonPhoenix/SpecificRules/RulePSS5FreeAgents.xml"
+
