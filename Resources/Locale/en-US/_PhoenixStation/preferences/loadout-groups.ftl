@@ -8,3 +8,4 @@ CCO-Sidearm-Group = CentComm Official's Extra
 CCO-Backpack-Group = CentComm Official's Backpack
 CCO-Neck-Group = CentComm Official's Cloak
 CCO-Outer-Group = CentComm Official's Outer-Clothing
+CCO-Trinket-Group = CentComm Official's Bureaucratic Trinkets
