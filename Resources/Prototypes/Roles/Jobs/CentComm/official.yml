@@ -25,15 +25,17 @@
 - type: startingGear
   id: CentcommGear
   equipment:
-    jumpsuit: ClothingAltUniformJumpsuitCentcomOfficial # alt version
-    shoes: ClothingShoesBootsCombatFilled
-    head: ClothingHeadHatCentcom
-    eyes: ClothingEyesGlassesCentComm
+    # Phoenix start - Loadouts for roundstart CC
+    #jumpsuit: ClothingAltUniformJumpsuitCentcomOfficial # alt version
+    #shoes: ClothingShoesBootsCombatFilled
+    #head: ClothingHeadHatCentcom
+    #eyes: ClothingEyesGlassesCentComm
+    # Phoenix end - Loadouts for roundstart CC
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterArmorCentcommCarapace
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
-    belt: WeaponPistolN1984
+    #belt: WeaponPistolN1984 # Phoenix - Loadouts for roundstart CC
     pocket1: BoxFolderCentComClipboardThreePapers
     pocket2: PenCentcom
     # Phoenix start - make CC roundstart

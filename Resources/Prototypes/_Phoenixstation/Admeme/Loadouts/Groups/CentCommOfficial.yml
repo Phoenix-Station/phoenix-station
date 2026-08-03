@@ -1,0 +1,121 @@
+- type: roleLoadout
+  id: JobCentralCommandOfficial
+  groups:
+    - CCOeyes
+    - CCOhead
+    - CCOsuit
+    - CCOlegs
+    - Trinkets
+
+# Head
+
+- type: loadoutGroup
+  id: CCOhead
+  name: CCO-Head-Group
+  loadouts:
+    - CCObrandhat
+    - CCOCCCap
+    - CCOCCBeret
+
+- type: loadout
+  id: CCObrandhat
+  equipment:
+    head: ClothingHeadHatCentcom
+
+- type: loadout
+  id: CCOCCCap # Holy name.
+  equipment:
+    head: ClothingHeadHatCentcomcap
+
+- type: loadout
+  id: CCOCCBeret
+  equipment:
+    head: ClothingHeadHatCCberet
+
+
+# Jumpsuit
+
+- type: loadoutGroup
+  id: CCOsuit
+  name: CCO-Suit-Group
+  loadouts:
+    - CCOjumpsuit
+    - CCOjumpskirt
+    - CCOformalsuit
+    - CCOformaldress
+
+- type: loadout
+  id: CCOjumpsuit
+  equipment:
+    jumpsuit: ClothingAltUniformJumpsuitCentcomOfficial
+
+- type: loadout
+  id: CCOjumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcomOfficial
+
+- type: loadout
+  id: CCOformalsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomFormal
+
+- type: loadout
+  id: CCOformaldress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcomFormalDress
+
+# eyes
+
+- type: loadoutGroup
+  id: CCOeyes
+  name: CCO-Eyes-Group
+  loadouts:
+    - CCOCCglasses
+    - CCOCCHud
+    - CCOCCJamJar
+
+- type: loadout
+  id: CCOCCglasses
+  equipment:
+    eyes: ClothingEyesGlassesCentComm
+
+- type: loadout
+  id: CCOCCHud
+  equipment:
+    eyes: ClothingEyesHudCentComm
+
+- type: loadout
+  id: CCOCCJamJar
+  equipment:
+    eyes: ClothingEyesGlassesJamjarCentComm
+
+# legs
+
+- type: loadoutGroup
+  id: CCOlegs
+  name: CCO-Legs-Group
+  loadouts:
+    - CCOCCJacks
+    - CCOCCCombatboots
+    - CCOCCHighHeels
+    - CCOCCLaceup
+
+- type: loadout
+  id: CCOCCJacks
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+- type: loadout
+  id: CCOCCCombatboots
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: CCOCCHighHeels
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+
+- type: loadout
+  id: CCOCCLaceup
+  equipment:
+    shoes: ClothingShoesBootsLaceup
