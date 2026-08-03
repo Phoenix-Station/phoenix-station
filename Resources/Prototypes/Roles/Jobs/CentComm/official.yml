@@ -30,16 +30,16 @@
     #shoes: ClothingShoesBootsCombatFilled
     #head: ClothingHeadHatCentcom
     #eyes: ClothingEyesGlassesCentComm
+    gloves: ClothingHandsGlovesCombat
     # Phoenix end - Loadouts for roundstart CC
-    gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterArmorCentcommCarapace
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
     #belt: WeaponPistolN1984 # Phoenix - Loadouts for roundstart CC
     pocket1: BoxFolderCentComClipboardThreePapers
     pocket2: PenCentcom
+    #back: ClothingBackpackSatchelLeather # Phoenix - Loadouts for roundstart CC
     # Phoenix start - make CC roundstart
-    back: ClothingBackpackSatchelLeather
   inhand:
     - Centcommteleportdoohickey # Phoenix - For them to get to CC if they latejoin.
   # Phoenix end - make CC roundstart

@@ -29,25 +29,43 @@
 - type: entity
   id: ClothingBeltHolsterFilledMateba
   parent: ClothingBeltHolster
+  name: Mateba Holster
+  description: A robust looking shoulder holster made to carry the Mateba.
   suffix: Filled, Mateba
   components:
+    - type: Storage
+      maxItemSize: Huge
+      grid:
+        - 0,0,3,3
     - type: EntityTableContainerFill
       containers:
         storagebase: !type:AllSelector
           children:
             - id: WeaponRevolverMateba
             - id: SpeedLoaderMagnumSP
-            - id: MagazineBoxMagnumSPs
+            - id: SpeedLoaderMagnumSP
+            - id: MagazineBoxMagnumSP
+    - type: Contraband
+      allowedDepartments: [ CentralCommand ]
 
 - type: entity
   id: ClothingBeltHolsterFilledN1984
+  name: N1984 Holster
+  description: A robust looking shoulder holster made to carry the N1984.
   parent: ClothingBeltHolster
   suffix: Filled, N1984
   components:
+    - type: Storage
+      maxItemSize: Huge
+      grid:
+        - 0,0,3,3
     - type: EntityTableContainerFill
       containers:
         storagebase: !type:AllSelector
           children:
             - id: WeaponPistolN1984
             - id: MagazineMagnum
+            - id: MagazineMagnum
             - id: MagazineBoxMagnumSP
+    - type: Contraband
+      allowedDepartments: [ CentralCommand ]
