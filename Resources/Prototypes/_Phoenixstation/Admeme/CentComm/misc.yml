@@ -17,6 +17,7 @@
         - state: icon
           color: green
     - type: TeleportLocations
+      teleportEffect: MoffEffectSparksSilent
       name: teleportation-scroll-window-title
       closeAfterTeleport: true
     - type: UseDelay
