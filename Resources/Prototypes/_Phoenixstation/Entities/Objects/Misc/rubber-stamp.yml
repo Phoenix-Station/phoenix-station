@@ -1,5 +1,6 @@
 - type: entity
   name: Ominous CC rubber stamp
+  description: A rubber stamp, for when someone just won't get the message otherwise.
   parent: RubberStampBase
   id: RubberStampIWBYA
   suffix: Admeme, Mapping not advised
