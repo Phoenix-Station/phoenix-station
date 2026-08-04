@@ -1,7 +1,7 @@
 - type: entity
   id: Centcommteleportdoohickey
   name: teleport doohickey
-  description: A bluespace doohickey that lets you teleport anywhere* on the station. Yes, you cannot take your favourite Avali to CC with this, but expect NT to not be happy if you do.
+  description: A bluespace doohickey that lets you teleport anywhere* on the station. Yes, you cannot take your favourite Avali to CC with this, but expect NT to be unhappy with you if you do.
   suffix: ADMEME, CENTCOMM
   parent: [ BaseItem, BaseCentcommContraband ]
   components:
