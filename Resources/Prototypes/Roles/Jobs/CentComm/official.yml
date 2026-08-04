@@ -40,6 +40,11 @@
     #back: ClothingBackpackSatchelLeather # Phoenix - Loadouts for roundstart CC
   inhand:
     - Centcommteleportdoohickey # Phoenix - For them to get to CC if they latejoin.
+  storage:
+    back:
+      - DoorRemoteCustom
+      - GreenPhone
+      - RubberStampCentcom
   # Phoenix end - Loadouts for roundstart CC
 
 - type: chameleonOutfit

@@ -329,9 +329,7 @@
   maxLimit: 4
   name: CCO-Trinket-Group
   loadouts:
-    - CCOTrinketGreenPhone
     - CCOTrinketAdminStampsBox
-    - CCOTrinketStampCC
     - CCOTrinketStampDomestic
     - CCOTrinketStampEngineering
     - CCOTrinketStampIntelligence
@@ -342,12 +340,6 @@
     - CCOTrinketStampSecurity
     - CCOTrinketStampSpecOps
     - CCOTrinketRenaultPlush
-
-- type: loadout
-  id: CCOTrinketGreenPhone
-  storage:
-    back:
-      - GreenPhone
 
 - type: loadout
   id: CCOTrinketAdminStampsBox
@@ -408,12 +400,6 @@
   storage:
     back:
     - RubberStampCSOD
-
-- type: loadout
-  id: CCOTrinketStampCC
-  storage:
-    back:
-    - RubberStampCentcom
 
 - type: loadout
   id: CCOTrinketRenaultPlush
