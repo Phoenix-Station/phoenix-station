@@ -69,3 +69,27 @@
             - id: MagazineBoxMagnumSP
     - type: Contraband
       allowedDepartments: [ CentralCommand ]
+
+- type: entity
+  parent: BaseHandheldInstrument
+  id: GreenPhone
+  name: Green-Phone
+  description: A lavish phone for when an official wants another pizza. Also works as a supersynth!
+  components:
+    - type: Sprite
+      sprite: _Phoenixstation/Objects/Fun/Instruments/green_phone.rsi
+    - type: EmitSoundOnLand
+      sound:
+        path: /Audio/Items/ring.ogg
+    - type: Instrument
+      allowPercussion: true
+      allowProgramChange: true
+      respectMidiLimits: true
+    - type: Item
+      size: Small
+      storedRotation: -90
+    - type: Prayable
+      sentMessage: prayer-popup-notify-nanotrasen-sent
+      notificationPrefix: prayer-chat-notify-nanotrasen
+      verb: prayer-verbs-call
+      verbImage: null
