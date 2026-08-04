@@ -31,7 +31,6 @@
     #head: ClothingHeadHatCentcom
     #eyes: ClothingEyesGlassesCentComm
     gloves: ClothingHandsGlovesCombat
-    # Phoenix end - Loadouts for roundstart CC
     outerClothing: ClothingOuterArmorCentcommCarapace
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
@@ -39,10 +38,12 @@
     pocket1: BoxFolderCentComClipboardThreePapers
     pocket2: PenCentcom
     #back: ClothingBackpackSatchelLeather # Phoenix - Loadouts for roundstart CC
-    # Phoenix start - make CC roundstart
   inhand:
     - Centcommteleportdoohickey # Phoenix - For them to get to CC if they latejoin.
-  # Phoenix end - make CC roundstart
+  storage:
+    back:
+      - GreenPhone # Phoenix - incase they want more pizza.
+  # Phoenix end - Loadouts for roundstart CC
 
 - type: chameleonOutfit
   id: CentralCommandOfficialOutfit
@@ -51,6 +52,3 @@
   equipment:
     neck: ClothingNeckScarfStripedCentcom
     mask: ClothingMaskGasCentcom
-  storage:
-    back:
-      - BoxSurvival

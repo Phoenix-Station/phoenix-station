@@ -49,6 +49,15 @@
     - CCOjumpskirt
     - CCOformalsuit
     - CCOformaldress
+    - CCOformaldomestic
+    - CCOformalengineering
+    - CCOformalintelligence
+    - CCOformalcargo
+    - CCOformaladministrative
+    - CCOformalmedical
+    - CCOformalresearch
+    - CCOformalsecurity
+    - CCOformalspecops
 
 - type: loadout
   id: CCOjumpsuit
@@ -69,6 +78,51 @@
   id: CCOformaldress
   equipment:
     jumpsuit: ClothingUniformJumpskirtCentcomFormalDress
+
+- type: loadout
+  id: CCOformaldomestic
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommDomesticFormalWear
+
+- type: loadout
+  id: CCOformalengineering
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtEngiCentcommFormalWear
+
+- type: loadout
+  id: CCOformalintelligence
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommIntelFormalWear
+
+- type: loadout
+  id: CCOformalcargo
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommCargoFormalWear
+
+- type: loadout
+  id: CCOformaladministrative
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommAdminFormalWear
+
+- type: loadout
+  id: CCOformalmedical
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommMedFormalWear
+
+- type: loadout
+  id: CCOformalresearch
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommResearchFormalWear
+
+- type: loadout
+  id: CCOformalsecurity
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommSecurityFormalWear
+
+- type: loadout
+  id: CCOformalspecops
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcommSpecialOpsFormalWear
 
 # eyes
 
@@ -201,3 +255,66 @@
   id: CCOVibroblade
   equipment:
     belt: CentcommVibrobladeSheathFilled
+
+# Cloaks/neck
+
+- type: loadoutGroup
+  id: CCONeck
+  minLimit: 0
+  maxLimit: 1
+  name: CCO-Neck-Group
+  loadouts:
+    - CCOCCommandercloak
+    - ClothingNeckCloakCentcom
+    - CCOCCPoncho
+    - CCOERTLeadMantle
+    - CCOCCAdmiralCloak
+    - CCOCEDMantle
+    - CCOCMDMantle
+    - CCOCRDMantle
+    - CCOSpecOffCloak
+
+- type: loadout
+  id: CCOCCommandercloak
+  equipment:
+    neck: ClothingNeckCloakCentcom
+
+- type: loadout
+  id: CCOBoatCloak
+  equipment:
+    neck: ClothingNeckCloakBoatCC
+
+- type: loadout
+  id: CCOCCPoncho
+  equipment:
+    neck: ClothingNeckCloakCCponcho
+
+- type: loadout
+  id: CCOERTLeadMantle
+  equipment:
+    neck: ClothingNeckMantleERTLeader
+
+- type: loadout
+  id: CCOCCAdmiralCloak
+  equipment:
+    neck: ClothingNeckCloakCentcomAdmiral
+
+- type: loadout
+  id: CCOCEDMantle
+  equipment:
+    neck: ClothingNeckCloakCEDMantle
+
+- type: loadout
+  id: CCOCMDMantle
+  equipment:
+    neck: ClothingNeckCloakCMDMantle
+
+- type: loadout
+  id: CCOCRDMantle
+  equipment:
+    neck: ClothingNeckCloakCRDMantle
+
+- type: loadout
+  id: CCOSpecOffCloak
+  equipment:
+    neck: ClothingNeckCloakCentcomBlack
