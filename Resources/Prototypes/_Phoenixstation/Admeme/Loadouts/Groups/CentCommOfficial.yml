@@ -157,7 +157,7 @@
 
 - type: loadoutGroup
   id: CCOlegs
-  minLimit: 0
+  minLimit: 1
   maxLimit: 1
   name: CCO-Legs-Group
   loadouts:
