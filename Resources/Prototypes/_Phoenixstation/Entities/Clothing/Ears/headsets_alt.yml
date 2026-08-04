@@ -2,6 +2,7 @@
   parent: [ClothingHeadsetAlt, BaseCentcommContraband]
   id: ClothingHeadsetAltCentComSec
   name: CC Security Divison over-ear headset
+  suffix: Admin Only, DO NOT MAP
   description: A special-issue headset meant for the Central Command Security Division Officer herself.
   components:
   - type: ContainerFill

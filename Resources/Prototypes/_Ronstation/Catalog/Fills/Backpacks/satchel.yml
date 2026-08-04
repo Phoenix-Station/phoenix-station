@@ -31,6 +31,8 @@
   - type: StorageFill
     contents:
       - id: RubberStampCSD
+      - id: RubberStampCentcom
+      - id: RubberStampIWBYA
       - id: BoxStampsCCAdministrative
       - id: ToolDebug
       - id: WelderExperimental
@@ -51,6 +53,10 @@
       - id: MagazineDMRIncendiary
       - id: MagazineDMRIncendiary
       - id: MagazineDMRIncendiary
+      - id: MagazinePistol40FMJ
+      - id: MagazinePistol40FMJ
+      - id: MagazinePistol40FMJ
+      - id: MagazinePistol40FMJ
       - id: ClothingEyesHudCentComm
       - id: BodyBagCCFolded
       - id: BodyBagCCFolded
