@@ -50,9 +50,9 @@
     eyes: ClothingEyesGlassesCentComm
     id: CentcomPDA
     ears: ClothingHeadsetAltCentComSec
-    belt: ClothingBeltSheathFilled
-    pocket1: WeaponDisabler
-    pocket2: WeaponEnergyMagnumGunGreenshield
+    belt: CentcommVibrobladeSheathFilled
+    pocket1: WeaponEnergyMagnumGunGreenshield
+    pocket2: WeaponPistolStechkin
     suitstorage: WeaponRifleL10
   inhand:
   - MindShieldImplanter
