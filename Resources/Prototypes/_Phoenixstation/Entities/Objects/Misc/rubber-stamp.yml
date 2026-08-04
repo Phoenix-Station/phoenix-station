@@ -2,7 +2,7 @@
   name: Ominous CC rubber stamp
   parent: [RubberStampBase]
   id: RubberStampIWBYA
-  categories: [ Admeme ]
+  suffix: [Admeme, Mapping not advised]
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-beatyourass
