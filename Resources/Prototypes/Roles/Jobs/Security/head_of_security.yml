@@ -16,11 +16,13 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 50h # Starlight - Literally the most pressured role in the game, you need extensive knowledge of your department
-    - !type:TraitsRequirement # Starlight
-      traits:
-        - Iterator
-        - Muted
-      inverted: true
+    # Phoenix start - Job whitelist changes
+    #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #  - Muted
+      #inverted: true
+    # Phoenix end - Job whitelist changes
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"

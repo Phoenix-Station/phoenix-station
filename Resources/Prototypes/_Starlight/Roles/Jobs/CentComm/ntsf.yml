@@ -3,18 +3,21 @@
   name: job-name-nanotrasen-special-forces
   description: job-description-nanotrasen-special-forces
   playTimeTracker: JobNTSF
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 72000 # 20 hrs
-    - !type:RolesRequirement
-      proto: ExtRolesReq
+  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
+  #requirements:
+  #  - !type:DepartmentTimeRequirement
+  #    department: Security
+  #    time: 72000 # 20 hrs
+  #  - !type:RolesRequirement
+  #    proto: ExtRolesReq
+  # Pheonix end - Job whitelist changes
   setPreference: false
   startingGear: NanoTrasenSpecialForcesGear
   icon: JobIconNanoTrasenSpecialForces
   rules: job-rules-corporate-aligned
   supervisors: job-supervisors-nanotrasen
   canBeAntag: false
+  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true
   accessGroups:
   - AllAccess
