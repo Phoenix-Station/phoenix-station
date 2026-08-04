@@ -7,6 +7,8 @@
     - CCOlegs
     - CCObackpack
     - CCOextra
+    - CCONeck
+    - CCOTRINKETS
     - Trinkets
 
 # Head
@@ -265,7 +267,7 @@
   name: CCO-Neck-Group
   loadouts:
     - CCOCCommandercloak
-    - ClothingNeckCloakCentcom
+    - CCOBoatCloak
     - CCOCCPoncho
     - CCOERTLeadMantle
     - CCOCCAdmiralCloak
@@ -318,3 +320,103 @@
   id: CCOSpecOffCloak
   equipment:
     neck: ClothingNeckCloakCentcomBlack
+
+# stamps/trinkets (I LOVE GIVING TRINKETS TO MY CCOs AND COMMAND MEMBERS)
+
+- type: loadoutGroup
+  id: CCOTRINKETS
+  minLimit: 0
+  maxLimit: 4
+  name: CCO-Trinket-Group
+  loadouts:
+    - CCOTrinketGreenPhone
+    - CCOTrinketAdminStampsBox
+    - CCOTrinketStampCC
+    - CCOTrinketStampDomestic
+    - CCOTrinketStampEngineering
+    - CCOTrinketStampIntelligence
+    - CCOTrinketStampCargo
+    - CCOTrinketStampAdminstrative
+    - CCOTrinketStampMedical
+    - CCOTrinketStampResearch
+    - CCOTrinketStampSecurity
+    - CCOTrinketStampSpecOps
+    - CCOTrinketRenaultPlush
+
+- type: loadout
+  id: CCOTrinketGreenPhone
+  storage:
+    back:
+      - GreenPhone
+
+- type: loadout
+  id: CCOTrinketAdminStampsBox
+  storage:
+    back:
+    - BoxStampsCCAdministrative
+
+- type: loadout
+  id: CCOTrinketStampDomestic
+  storage:
+    back:
+    - RubberStampCDD
+
+- type: loadout
+  id: CCOTrinketStampEngineering
+  storage:
+    back:
+    - RubberStampCED
+
+- type: loadout
+  id: CCOTrinketStampIntelligence
+  storage:
+    back:
+    - RubberStampCID
+
+- type: loadout
+  id: CCOTrinketStampCargo
+  storage:
+    back:
+    - RubberStampCCD
+
+- type: loadout
+  id: CCOTrinketStampAdminstrative
+  storage:
+    back:
+    - RubberStampCAD
+
+- type: loadout
+  id: CCOTrinketStampMedical
+  storage:
+    back:
+    - RubberStampCMD
+
+- type: loadout
+  id: CCOTrinketStampResearch
+  storage:
+    back:
+    - RubberStampCRD
+
+- type: loadout
+  id: CCOTrinketStampSecurity
+  storage:
+    back:
+    - RubberStampCSD
+
+- type: loadout
+  id: CCOTrinketStampSpecOps
+  storage:
+    back:
+    - RubberStampCSOD
+
+- type: loadout
+  id: CCOTrinketStampCC
+  storage:
+    back:
+    - RubberStampCentcom
+
+- type: loadout
+  id: CCOTrinketRenaultPlush
+  storage:
+    back:
+    - RenaultPlushie
