@@ -3,17 +3,20 @@
   name: job-name-deathsquad
   description: job-description-deathsquad
   playTimeTracker: JobDeathSquad
-  requirements:
-  - !type:OverallPlaytimeRequirement
-    time: 20h
-  - !type:DepartmentTimeRequirement
-    department: Security
-    time: 10h
+  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
+  #requirements:
+  #- !type:OverallPlaytimeRequirement
+  #  time: 20h
+  #- !type:DepartmentTimeRequirement
+  #  department: Security
+  #  time: 10h
+  # Pheonix end - Job whitelist changes
   setPreference: false
   startingGear: DeathSquadGear
   icon: "JobIconDeathSquad"
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true # Starlight
   accessGroups:
   - AllAccess

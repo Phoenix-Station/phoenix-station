@@ -10,13 +10,15 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10h
-    - !type:RolesRequirement
-      proto: ExtRolesReq
-    - !type:TraitsRequirement
-      traits:
-        - Iterator
-        - Muted
-      inverted: true
+  # Phoenix start - Job whitelist changes
+  #- !type:RolesRequirement
+    #  proto: ExtRolesReq
+  #- !type:TraitsRequirement
+    #  traits:
+    #    - Iterator
+    #    - Muted
+    #  inverted: true
+  # Phoenix end - Job whitelist changes
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"
   rules: job-rules-corporate-aligned
