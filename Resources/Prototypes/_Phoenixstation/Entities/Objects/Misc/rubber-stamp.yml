@@ -1,0 +1,14 @@
+- type: entity
+  name: Ominous CC rubber stamp
+  parent: [RubberStampBase]
+  id: RubberStampIWBYA
+  categories: [ Admeme ]
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-beatyourass
+    stampedColor: "#850000"
+    stampState: "paper_stamp-deny"
+  - type: Sprite
+    state: stamp-syndicate
+  - type: StaticPrice
+    price: 1000
