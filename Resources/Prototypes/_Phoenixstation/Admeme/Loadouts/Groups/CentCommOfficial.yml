@@ -326,7 +326,7 @@
 - type: loadoutGroup
   id: CCOTRINKETS
   minLimit: 0
-  maxLimit: 4
+  maxLimit: 2
   name: CCO-Trinket-Group
   loadouts:
     - CCOTrinketAdminStampsBox
