@@ -3,18 +3,21 @@
   name: job-name-decimus
   description: job-description-decimus
   playTimeTracker: JobDecimus
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 72000 # 20 hrs
-    - !type:RolesRequirement
-      proto: ExtRolesReq
+  # Pheonix start - Job whitelist changes - Since its a whitelist only job, we don't need this anymore.
+  #requirements:
+  #  - !type:DepartmentTimeRequirement
+  #    department: Security
+  #    time: 72000 # 20 hrs
+  #  - !type:RolesRequirement
+  #    proto: ExtRolesReq
+  # Pheonix end - Job whitelist changes
   setPreference: false
   startingGear: DecimusGear
   icon: JobIconDecimus
   rules: job-rules-corporate-aligned
   supervisors: job-supervisors-none
   canBeAntag: false
+  whitelisted: true # Phoenix - Job whitelist changes
   bypassEorPacification: true
   accessGroups:
   - AllAccess

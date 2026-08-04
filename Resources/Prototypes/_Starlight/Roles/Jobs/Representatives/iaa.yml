@@ -10,9 +10,12 @@
   - !type:DepartmentTimeRequirement
     department: Security
     time: 36000 # 10h
-  - !type:TraitsRequirement # Starlight
-    traits:
-      - Iterator
+    # Phoenix start - Job whitelist changes
+      #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #inverted: true
+    # Phoenix end - Job whitelist changes
     inverted: true
   startingGear: IAAGear
   icon: "JobIconIAA"

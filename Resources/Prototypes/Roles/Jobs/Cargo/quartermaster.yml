@@ -13,11 +13,13 @@
     - !type:DepartmentTimeRequirement
       department: Cargo
       time: 30h # Starlight
-    - !type:TraitsRequirement # Starlight
-      traits:
-        - Iterator
-        - Muted
-      inverted: true
+    # Phoenix start - Job whitelist changes
+    #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #  - Muted
+      #inverted: true
+    # Phoenix end - Job whitelist changes
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuartermaster" #Starlight

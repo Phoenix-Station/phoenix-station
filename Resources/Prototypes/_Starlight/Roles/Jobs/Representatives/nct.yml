@@ -3,14 +3,16 @@
   name: job-name-nct
   description: job-description-nct
   playTimeTracker: JobNanotrasenCareerTrainer
-  requirements:
-    - !type:RolesRequirement
-      proto: StaffAndMentorOnlyRolesReq
-    - !type:TraitsRequirement
-      traits:
-        - Iterator
-        - Muted
-      inverted: true
+  # Phoenix start - Job whitelist changes
+  #requirements:
+    #- !type:RolesRequirement # Phoenix - Since its whitelisted now, this is not neccessary.
+      #proto: StaffAndMentorOnlyRolesReq
+    #- !type:TraitsRequirement # Starlight
+      #traits:
+      #  - Iterator
+      #  - Muted
+      #inverted: true
+     # Phoenix end - Job whitelist changes
   startingGear: NanotrasenCareerTrainerGear
   icon: JobIconNanotrasenCareerTrainer
   rules: job-rules-corporate-aligned
@@ -18,6 +20,7 @@
   displayWeight: 2
   overrideConsoleVisibility: false
   canBeAntag: false
+  whitelisted: true # Phoenix - Job whitelist changes
   joinNotifyCrew: true
   access:
     - Lawyer

@@ -17,4 +17,4 @@
       - id: RubberStampDenied
       - id: WeaponRevolverMatebaAP
       - id: SpeedLoaderMagnumAP
-      - id: TelescopicBaton
+      #- id: TelescopicBaton # Phoenix - Shushing YAML linter the hell up :3
