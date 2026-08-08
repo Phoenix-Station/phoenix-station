@@ -1,7 +1,7 @@
 - type: entity
   parent: [GunSafeBaseArmorySL, BaseSecurityContraband]
   id: GunSafeLMGStationStart
-  suffix: [ MAP THIS ]
+  suffix: MAP THIS
   name: heavy weapon safe
   description: A safe with extra robust equipment. This should only be opened on red alert.
   components:
