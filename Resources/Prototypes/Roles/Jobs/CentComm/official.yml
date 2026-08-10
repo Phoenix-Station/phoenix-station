@@ -33,7 +33,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorCentcommCarapace
     id: CentcomPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComDivHead # Phoenix - More love for the roundstart CC
     #belt: WeaponPistolN1984 # Phoenix - Loadouts for roundstart CC
     pocket1: BoxFolderCentComClipboardThreePapers
     pocket2: PenCentcom
