@@ -13,6 +13,8 @@
         type: StorageBoundUserInterface
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
+  - type: Tag
+    tags: [] # Since it just reuses a sprite, not whitelisted for chameleon
   - type: StorageFill
     contents:
       - id: SyndicateJawsOfLifeStealth # the Nanotrasen special; reappropriated Syndicate Tech

@@ -6,6 +6,8 @@
   parent: [ ClothingBackpackSatchelHolding, BaseCentcommContraband ]
   suffix: Filled, Centcom Formal, Admeme
   components:
+  - type: Tag
+    tags: [] # Since it just reuses a sprite, not whitelisted for chameleon.
   - type: StorageFill
     contents:
       - id: ToolDebug
@@ -37,6 +39,8 @@
         type: StorageBoundUserInterface
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
+  - type: Tag
+    tags: []
   - type: StorageFill
     contents:
       - id: RubberStampCSD
