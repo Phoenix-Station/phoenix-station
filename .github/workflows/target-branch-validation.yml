@@ -28,7 +28,7 @@ jobs:
           fi
 
           # For all other PRs, require starlight-dev as target
-          if [ "$TARGET_BRANCH" != "starlight-dev" ]; then
+          if [ "$TARGET_BRANCH" != "dev" ]; then
             echo "Error: PR must target 'dev' branch, but targets '$TARGET_BRANCH'"
             echo "Please change the target branch to 'dev'"
             exit 1
