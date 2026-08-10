@@ -42,3 +42,6 @@
       - id: MindShieldImplanter
       - id: DeathRattleImplanterCentcomm
       - id: RadioImplanterCentcomm
+      - id: SELFStorageImplanter # This thing's pretty powerful... Mostly just to store blatant CC contra such as the full ID, and the used implanters
+      - id: CentcomIDCard # To pull access from in an emergency.
+      - id: CigarGoldCase # To blend in :3

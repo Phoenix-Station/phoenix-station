@@ -5,9 +5,10 @@
     back: ClothingBackpackSatchelHoldingCentcomWatchdogFilled
     shoes: ClothingShoesChameleonNoSlips
     mask: ClothingMaskGasChameleon
+    head: ClothingHeadHatChameleon
     outerClothing: ClothingOuterArmorCentcommChameleon
     neck: ClothingNeckChameleon
-    eyes: ClothingEyesGlassesCCInsideAgent
+    eyes: ClothingEyesGlassesCCDivHead
     gloves: ClothingAdmemeHandsChameleonInsulated
     id: ChameleonAgentPDA
     ears: ClothingHeadsetChameleonWatchdog
