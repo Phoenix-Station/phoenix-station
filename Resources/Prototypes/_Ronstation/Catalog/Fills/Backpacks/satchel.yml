@@ -3,7 +3,7 @@
 # General CC character, rather than head of a CC department
 - type: entity
   id: ClothingBackpackSatchelHoldingCentcomFormalFilled
-  parent: ClothingBackpackSatchelHolding
+  parent: [ ClothingBackpackSatchelHolding, BaseCentcommContraband ]
   suffix: Filled, Centcom Formal, Admeme
   components:
   - type: StorageFill
@@ -25,9 +25,18 @@
 # This explicitly now targets a role as CC Security division
 - type: entity
   id: ClothingBackpackSatchelHoldingCentcomOfficerFilled
-  parent: ClothingBackpackSatchelHolding
-  suffix: Filled, Centcom Officer, Admeme
+  parent: [ ClothingBackpackSatchelHolding, BaseChameleon, BaseCentcommContraband ]
+  suffix: Filled, Centcom Officer, Admeme, Chameleon
   components:
+  - type: ChameleonClothing
+    slot: [back]
+    default: ClothingBackpackSatchelHolding
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
   - type: StorageFill
     contents:
       - id: RubberStampCSD
@@ -57,7 +66,7 @@
       - id: MagazinePistol40FMJ
       - id: MagazinePistol40FMJ
       - id: MagazinePistol40FMJ
-      - id: ClothingEyesHudCentComm
+      - id: ClothingEyesHudCCDivHead
       - id: BodyBagCCFolded
       - id: BodyBagCCFolded
       - id: BodyBagCCFolded
