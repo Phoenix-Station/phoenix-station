@@ -18,14 +18,14 @@ jobs:
 
       - name: Check for StarLight folders
         run: |
-          bad_paths="$(find . -path './.git' -prune -o -type d -name '*StarLight*' -print)"
+          bad_paths="$(find . -path './.git' -prune -o -type d -name '*PhoenixStation*' -print)"
 
           if [ -n "$bad_paths" ]; then
-            echo "::error::Found folders using StarLight. They should use Starlight."
+            echo "::error::Found folders using PhoenixStation. They should use Phoenixstation."
             echo "$bad_paths"
             exit 1
           else
-            echo "No StarLight folders found."
+            echo "No PhoenixStation folders found."
           fi
 
       - name: Validate _Starlight namespaces
