@@ -24,7 +24,7 @@
         whitelist:
           tags:
             - PowerCell
-            - PowerCellAntiqueProto
+            - PowerCellHigh
   - type: ContainerContainer
     containers:
       cell_slot: !type:ContainerSlot
