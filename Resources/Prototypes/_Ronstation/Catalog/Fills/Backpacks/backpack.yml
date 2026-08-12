@@ -5,6 +5,8 @@
   suffix: Admeme, ERT Engineer
   name: ERT Engineer Backpack
   components:
+  - type: Tag
+    tags: [] # Since it just reuses a sprite, not whitelisted for chameleon
   - type: StorageFill
     contents:
     - id: RCDExperimental
@@ -26,6 +28,8 @@
   suffix: Admeme, ERT Leader, Shotgun
   name: ERT Leader Backpack
   components:
+    - type: Tag
+      tags: []
     - type: StorageFill
       contents:
       - id: RCDExperimental
@@ -50,6 +54,8 @@
   suffix: Admeme, ERT Leader, XL8
   name: ERT Leader Backpack
   components:
+    - type: Tag
+      tags: [] # Since it just reuses a sprite, not whitelisted for chameleon
     - type: StorageFill
       contents:
       - id: RCDExperimental

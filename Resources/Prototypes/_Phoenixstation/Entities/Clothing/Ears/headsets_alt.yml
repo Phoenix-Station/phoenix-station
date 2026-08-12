@@ -1,16 +1,16 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCentcommContraband]
-  id: ClothingHeadsetAltCentComSec
-  name: CC Security Divison over-ear headset
+  id: ClothingHeadsetAltCentComDivHead
+  name: CC Official over-ear headset
   suffix: Admin Only, DO NOT MAP
-  description: A special-issue headset meant for the Central Command Security Division Officer herself.
+  description: A special-issue headset meant for Central Command Division heads and trusted Officials, has all its channels built-in. Not cheap; Don't let it out of your sight.
   components:
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyCentCom
-      - EncryptionKeyNanoTrasen
-      - EncryptionKeyStationMaster
+      - EncryptionKeyCentcomUnremovable
+      - EncryptionKeyNanoTrasenUnremovable
+      - EncryptionKeyStationMasterUnremovable
   - type: Sprite
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
